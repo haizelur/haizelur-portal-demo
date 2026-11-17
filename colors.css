@@ -1,0 +1,14 @@
+/* Paleta de calendario con mayor contraste para las dos vistas. */
+.day.holiday,.year-day.holiday{background:#ee5965;color:#fff}
+.day.fixed,.year-day.fixed{background:#ff9c3d;color:#3d2609}
+.day.vacation,.year-day.vacation{background:#ffdc38;color:#473900}
+.day.group,.year-day.group{background:#77cd54;color:#173b1a}
+.day.approved,.year-day.approved{background:#218d61;color:#fff}
+.day.pending,.year-day.pending{background:#e7a12e;color:#37240a}
+.day.selected,.year-day:focus-visible{outline:3px solid #183f30;outline-offset:1px}
+.legend span:nth-child(1) i{background:#77cd54!important}
+.legend span:nth-child(2) i{background:#ffdc38!important}
+.legend span:nth-child(3) i{background:#ee5965!important}
+.legend span:nth-child(4) i{background:#ff9c3d!important}
+.legend span:nth-child(5) i{background:#218d61!important}
+.legend span:nth-child(6) i{background:#e7a12e!important}
